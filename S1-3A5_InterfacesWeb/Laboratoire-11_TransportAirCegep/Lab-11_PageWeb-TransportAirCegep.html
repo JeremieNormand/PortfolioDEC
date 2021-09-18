@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Transport Air-Cégep</title>
+    <meta name="author" content="Jeremie Normand">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Styles Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Styles pour l'impression PDF -->
+    <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="Lab-11_Solution/css/styles.css">
+</head>
+
+<body onload="initRange()">
+
+    <!-- En-tête -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <h1>Transport Air-Cégep</h1>
+    </div>
+
+    <!-- Corps -->
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-9">
+                <div class="card border-0">
+
+                    <div class="card-header bg-primary text-white">Informations du voyage</div>
+
+                    <div class="card-body bg-dark text-white">
+
+                        <!-- Formulaire -->
+                        <form name="formBillet">
+                            <!-- Nom du client -->
+                            <div class="form-group">
+                                <label for="nom">Nom</label>
+                                <input type="text" name="nom" id="nom" class="form-control">
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="border border-white p-2 align-items-top">
+                                        <!-- Sexe -->
+                                        <p>Sexe</p>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" name="sexe" value="F" id="feminin"
+                                                class="custom-control-input">
+                                            <label class="custom-control-label" for="feminin">Féminin</label>
+                                        </div>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" name="sexe" value="M" id="masculin"
+                                                class="custom-control-input">
+                                            <label class="custom-control-label" for="masculin">Masculin</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="border border-white p-2 ">
+                                        <!-- Voyageur seul, couple ou famille -->
+                                        <p>Voyageurs</p>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" name="voyageurs" value="S" id="seul"
+                                                class="custom-control-input">
+                                            <label class="custom-control-label" for="seul">Seul</label>
+                                        </div>
+                                        <div class="custom-control custom-radio ">
+                                            <input type="radio" name="voyageurs" value="C" id="couple"
+                                                class="custom-control-input">
+                                            <label class="custom-control-label" for="couple">Couple</label>
+                                        </div>
+                                        <div class="custom-control custom-radio ">
+                                            <input type="radio" name="voyageurs" value="F" id="famille"
+                                                class="custom-control-input">
+                                            <label class="custom-control-label" for="famille">Famille (2 adultes, 2
+                                                enfants)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border border-white p-2 my-2">
+                                <!-- Liste de destinations -->
+                                <p>Destination</p>
+                                <select class="custom-select" name="destination">
+                                    <option value="na" label=" " selected> </option>
+                                    <option value="M">Montréal</option>
+                                    <option value="T">Toronto</option>
+                                    <option value="V">Vancouver</option>
+                                </select>
+                            </div>
+
+                            <!-- Gradateur des bagages -->
+                            <div class="form-group my-3">
+                                <label for="poids">Poids des bagages (0 à 1000 lbs) </label>
+                                <input type="range" class="custom-range w-75 mr-5" min="0" max="1000" name="poids"
+                                    id="poids" value="0" oninput="affichePoids(document.getElementById('poids'))">
+                                <span id="valeurPoids"></span> lbs
+                            </div>
+
+                            <!-- Boutons -->
+                            <button type="button" class="btn btn-primary" id="btnEmissionBillet"
+                                onclick="emettreBillet(document.forms[0])">Émission du billet</button>
+                            <button type="reset" class="btn btn-secondary" id="btnInit"
+                                onclick="initRange(), cacherBillet()">Effacer</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Messages d'alerte -->
+            <div class="col-3" id="alerte">
+                <div class="card border-0">
+                    <div class="card-header bg-dark text-white">Avertissement</div>
+                    <div class="card-body bg-warning text-dark" id="info_output"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Billet d'avion -->
+        <div class="card border-0 my-2" id="billet">
+            <div class="card-header bg-dark text-white">Billet</div>
+            <div class="card-body bg-primary text-white" id="billet_output">
+                <!-- le contenu de cette balise sera généré en JavaScript -->
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-success"
+                    onclick="printJS({printable : 'billet_output', type : 'html', header : 'Confirmation : achat de billet'})">
+                    Imprimer le billet
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="text-center mt-5 mb-0 fixed-bottom">
+        <span class="lead">Merci de voyager avec Air-Cégep</span>
+    </footer>
+
+    <!--Scripts Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--Script d'impression en PDF-->
+    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+
+    <!--Script personnalisé-->
+    <script src="Lab-11_Solution/script/voyages.js"></script>
+</body>
+
+</html>

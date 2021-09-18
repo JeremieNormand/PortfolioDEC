@@ -1,0 +1,26 @@
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\bin\Debug\LesFilmsDuPleinPays.exe.config
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\bin\Debug\LesFilmsDuPleinPays.exe
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\bin\Debug\LesFilmsDuPleinPays.pdb
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csprojAssemblyReference.cache
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.Properties.Resources.resources
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csproj.GenerateResource.cache
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csproj.CoreCompileInputs.cache
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.exe
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.pdb
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csproj.CopyComplete
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.frmConnexionServeur.resources
+C:\Users\Nom\Desktop\LFDPP_V4\LesFilmsDuPleinPays\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.frmGestionnaire.resources
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\bin\Debug\LesFilmsDuPleinPays.exe.config
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\bin\Debug\LesFilmsDuPleinPays.exe
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\bin\Debug\LesFilmsDuPleinPays.pdb
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csprojAssemblyReference.cache
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.frmConnexionServeur.resources
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.frmGestionnaire.resources
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.Properties.Resources.resources
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csproj.GenerateResource.cache
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csproj.CoreCompileInputs.cache
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.csproj.CopyComplete
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.exe
+C:\Users\Nom\OneDrive - Cégep de Lévis\Session2_Hiver2021\420-2B5-LL_IntroductionAuxBasesDeDonnees\Projets\Projet1\LesFilmsDuPleinPays_Solution\LesFilmsDuPleinPays\obj\Debug\LesFilmsDuPleinPays.pdb

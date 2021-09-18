@@ -1,0 +1,66 @@
+table, td, th {
+    border-width: 1px;  /*largeur de bordure*/
+    border-style: solid; /*type de bordure*/
+    border-collapse: collapse; /*ne pas doubler les bordures entre les différentes balises*/
+}
+
+table {
+	border-width: .25rem;
+}
+
+th {
+	background-color: rgb(125, 235, 230);
+	font-weight: bolder;
+	font-size: 1.5rem;
+	color: rgb(60, 50, 5);
+	border-bottom-width: .25rem;
+}
+
+td {
+    text-align: center; /*Centrer le texte horizontalement*/
+    vertical-align: middle; /*Centrer le texte verticalement*/
+    width: 15vw; /*largeur de cellule de 15% la largeur d'écran*/
+    padding-top: 1rem; /*marge du haut de la cellule, équivalent à une ligne*/
+    padding-bottom: 1rem; /*marge du bas de la cellule, équivalent à une ligne*/
+}
+
+tr:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+caption {
+    font-weight: bold; /*Écrire en gras*/
+    font-size: 2rem; /*Taille : 2 fois la taille de base*/
+}
+
+span {
+	font-weight: bolder;
+}
+
+.bureautique-en-informatique {
+	background-color: rgb(235, 235, 165);
+	border-color: rgb(185, 185, 115);
+	border-style: double;
+	border-width: .125rem;
+}
+
+.poste-de-travail-informatique {
+	background-color: rgb(160, 240, 205);
+	border-color: rgb(110, 190, 155);
+	border-style: dashed;
+	border-width: .125rem;
+}
+
+.logique-de-programmation {
+	background-color: rgb(195, 195, 245);
+	border-color: rgb(145, 145, 195);
+	border-style: dotted;
+	border-width: .125rem;
+}
+
+.interfaces-web {
+	background-color: rgb(225, 165, 165);
+	border-color: rgb(175, 115, 115);
+	border-style: groove;
+	border-width: .125rem;
+}

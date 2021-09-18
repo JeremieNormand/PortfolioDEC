@@ -1,0 +1,150 @@
+/* General */
+body {
+	display: grid;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	background-image: url("../images/image-de-fond.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+h2 {
+	color: whitesmoke;
+	text-shadow: #444444 2px 2px 5px;
+}
+a {
+	color: whitesmoke;
+	text-decoration: none;
+	transition: color .125s ease-out;
+}
+a:hover {
+	color: goldenrod;
+}
+
+/* En-tete */
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../images/banniere.jpg");
+	background-size: cover;
+	background-position: center;
+}
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 5rem;
+	margin: 5rem;
+	color: whitesmoke;
+	text-shadow: #333333 1.5px 1.5px;
+}
+
+/* Barre de navigation */
+nav {
+	position: sticky;
+	top: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background-color: #444444;
+}
+nav a {
+	text-align: center;
+	padding: .5rem;
+	transition: background-color .125s ease-out;
+}
+nav a:hover {
+	background-color: #333333;
+}
+
+/* Contenu */
+main {
+	display: flex;
+	flex-direction: column;
+}
+main section {
+	margin: 5rem 0;
+	padding: 1rem 5rem;
+	background-color: rgba(255, 253, 230, 0.61)
+}
+
+/* Section qui nous sommes */
+#qui-nous-sommes {
+	display: flex;
+	flex-direction: column;
+}
+#qui-nous-sommes img {
+	width: 25vw;
+	align-self: center;
+	border: whitesmoke solid .5rem;
+}
+
+/* Section evenements a venir */
+#evenements-a-venir {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#evenements-a-venir h2 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+#evenements-a-venir p {
+	color: goldenrod;
+	text-shadow: #333333 1px 1px 1px;
+}
+
+/* Section contact */
+#contact {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2rem;
+}
+#contact h2 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+#contact img {
+	width: 33vw;
+	justify-self: end;
+}
+
+/* Section menu */
+table img {
+	width: 75vw;
+	display: block;
+	margin: 1rem auto;
+	border: whitesmoke solid .5rem;
+}
+td {
+	border-bottom: #444444 dotted 1px;
+}
+th:nth-child(1n) {
+	text-align: right;
+	vertical-align: top;
+	color: goldenrod;
+	text-shadow: #333333 1px 1px 1px;
+}
+th:nth-child(2n) {
+	width: 50%;
+	text-align: left;
+	color: goldenrod;
+	text-shadow: #333333 1px 1px 1px;
+}
+td:nth-child(2n) {
+	text-align: right;
+}
+
+/* Pied de page */
+footer {
+	text-align: center;
+	padding: 1rem;
+	color: whitesmoke;
+	background-color: #444444;
+}
+
+/* Retour au haut de la page */
+body > a {
+	position: fixed;
+	font-size: 2rem;
+	bottom: 1.5rem;
+	left: 1.5rem;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+	margin: auto;
+	width: 800px;
+	background-color: rgb(209, 201, 155);
+}
+
+header {
+	padding: 1rem;
+	background-color: #ffffff;
+}
+
+section, footer {
+	padding: 1rem;
+	background-color: #e0d7d7;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Satisfy", cursive;
+	font-size: 3rem;
+	color: rgb(121, 9, 0);
+}
+
+h1 {
+	font-family: "Satisfy", cursive;
+	color: rgb(58, 86, 102);
+}
+
+p, ul, li, footer {
+	font-family: 'Raleway', sans-serif;;
+	color: rgb(53, 48, 48);
+}
+
+section img, footer img {
+	max-height: 150px;
+	padding: 1rem;
+	float: right;
+	clear: both;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

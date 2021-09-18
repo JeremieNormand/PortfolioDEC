@@ -1,0 +1,10 @@
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\bin\Debug\TP6.exe.config
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\bin\Debug\TP6.exe
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\bin\Debug\TP6.pdb
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\obj\Debug\TP6.csprojAssemblyReference.cache
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\obj\Debug\TP6.frmTP6.resources
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\obj\Debug\TP6.Properties.Resources.resources
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\obj\Debug\TP6.csproj.GenerateResource.cache
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\obj\Debug\TP6.csproj.CoreCompileInputs.cache
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\obj\Debug\TP6.exe
+C:\Users\Nom\OneDrive - Cégep de Lévis\420-1A5-LL_LogiqueDeProgrammation\Laboratoires\Laboratoire09\TP6\TP6\obj\Debug\TP6.pdb

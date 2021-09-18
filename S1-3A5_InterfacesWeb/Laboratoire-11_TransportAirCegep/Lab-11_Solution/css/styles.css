@@ -1,0 +1,23 @@
+/*Styles pour la page Voyage*/
+body {
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    padding-bottom: 15rem;
+}
+
+legend {
+    color: white;
+}
+
+#alerte {
+    display: none;
+}
+
+#billet {
+    display: none;
+}
+
+footer {
+	padding: 1rem;
+	background: whitesmoke;
+}

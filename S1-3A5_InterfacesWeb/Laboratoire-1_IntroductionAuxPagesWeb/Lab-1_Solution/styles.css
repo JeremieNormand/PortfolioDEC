@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial';
+}
+
+img {
+    width: 800px;
+}
+
+p {
+    max-width: 800px;
+}
+
+ul {
+    color: rgb(241, 98, 15);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ol {
+    color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,57 @@
+----------------------------------------------------------------
+
+# Programmation Objet
+
+# Laboratoire 5 - Convertisseur de Nombre Decimal en Nombre Romain
+
+# Jeremie Normand
+
+----------------------------------------------------------------
+
+# Initialisations
+
+string[] m_tUnitesRomaines = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
+string[] m_tDizainesRomaines = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
+string[] m_tCentainesRomaines = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
+string[] m_tMilliersRomains = ["", "M", "MM", "MMM", "MMMM"]
+
+# Valide qu'un nombre est compris entre 1 et 4 999
+
+bool ValiderNombreDecimal(int nombreDecimal)
+
+	Si nombreDecimal < 1 || nombreDecimal > 4999
+		Renvoyer FAUX
+
+	Renvoyer VRAI
+
+
+# Construit le nombre romain avec des chiffres romains
+
+string TraduitDecimalEnRomain(int nombreDecimal)
+
+	string NombreRomain = ""
+
+	NombreRomain += m_tMilliersRomains[nombreDecimal / 1000]
+	NombreRomain += m_tCentainesRomaines[(nombreDecimal % 1000) / 100]
+	NombreRomain += m_tDizainesRomaines[(nombreDecimal % 100) / 10]
+	NombreRomain += m_tUnitesRomaines[(nombreDecimal % 10)]
+
+	Renvoyer NombreRomain
+
+
+# Methode associe au click du bouton convertir
+
+void btnConvertirEnRomainClick()
+	
+	int NombreDecimal
+
+	Si !int.TryParse(txtNombreDecimal.Text, out NombreDecimal)
+		MessageBox.Show("Entrez un nombre entier.")
+		txtNombreRomain.Text = "nulla"
+		Terminer
+	Si !ValiderNombreDecimal(NombreDecimal)
+		MessageBox.Show("Entrez un nombre compris entre 1 et 4 999.")
+		txtNombreRomain.Text = "nulla"
+		Terminer
+
+	txtNombreRomain.Text = TraduitDecimalEnRomain(NombreDecimal)

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertisseurNombreRomain", "ConvertisseurNombreRomain\ConvertisseurNombreRomain.csproj", "{CF2117E0-F936-4BCB-ACD3-15D1326E7599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2117E0-F936-4BCB-ACD3-15D1326E7599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2117E0-F936-4BCB-ACD3-15D1326E7599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2117E0-F936-4BCB-ACD3-15D1326E7599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2117E0-F936-4BCB-ACD3-15D1326E7599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CE5DE44-8334-4B6B-B2BC-E25BD0F41AE8}
+	EndGlobalSection
+EndGlobal
