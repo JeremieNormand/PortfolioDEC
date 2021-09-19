@@ -10,7 +10,7 @@ ________________________________________________________________________________
 |                                                     |                                                     |
 |   Iris                                              |   The Goo Goo Dolls                                 |
 |                                                     |                                                     |
-|   I'm Still Here (Jim's Theme)                      |   John Rzeznik                                      |
+|   I'm Still Here (Jim's Theme)                      |   John Rzeznik                                      ¦
 |                                                     |                                                     |
 |   Where is The Love?                                |   Black Eyed Peas                                   |
 |                                                     |                                                     |
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 |                                                     |                                                     |
 |   Paper Planes                                      |   M.I.A.                                            |
 |                                                     |                                                     |
-|   Inner Ninja                                       |   Classified                                        |
+|   Inner Ninja                                       |   Classified                                        ¦
 |                                                     |                                                     |
 |   Downtown                                          |   Macklemore & Ryan Lewis                           |
 |                                                     |                                                     |
@@ -38,13 +38,13 @@ ________________________________________________________________________________
 |                                                     |                                                     |
 |   Two Fingers                                       |   Jake Bugg                                         |
 |                                                     |                                                     |
-|   Hollaback Girl                                    |   Gwen Stefani                                      |
+|   Hollaback Girl                                    |   Gwen Stefani                                      ¦
 |                                                     |                                                     |
 |   Way Back When                                     |   Kodaline                                          |
 |                                                     |                                                     |
 |   5 Years Time                                      |   Noah And The Whale                                |
 |                                                     |                                                     |
-|   Everyone's A V.I.P. To Someone                    |   The Go! Team                                      |
+|   Everyone's A V.I.P. To Someone                    |   The Go! Team                                      ¦
 |                                                     |                                                     |
 |   Unwritten                                         |   Natasha Bedingfield                               |
 |                                                     |                                                     |
@@ -52,17 +52,17 @@ ________________________________________________________________________________
 |                                                     |                                                     |
 |   Three Little Birds                                |   Bob Marley & The Wailers                          |
 |                                                     |                                                     |
-;   Drift Away                                        ;   Uncle Kracker                                     ;
-;                                                     ;                                                     ;
-:   Frontier Psychiatrist                             :   The Avalanches                                    :
+¦   Drift Away                                        ¦   Uncle Kracker                                     ¦
+¦                                                     ¦                                                     ¦
+:   Frontier Psychiatrist                             :    The Avalanches                                   :
 :                                                     :                                                     :
 .   Schizophrenia                                     .   Jukebox The Ghost                                 .
 :                                                     :                                                     :
 :   Secret Separation                                 :    The Fixx                                         :
-;                                                     ;                                                     ;
-;   Send Me on My Way                                 ;   Rusted Root                                       ;
-|                                                     |                                                     |
-|   Missed the Boat                                   |   Modest Mouse                                      |
+¦                                                     ¦                                                     ¦
+¦   Send Me on My Way                                 ¦   Rusted Root                                       ¦
+¦                                                     ¦                                                     ¦
+|   Missed the Boat                                   |   Modest Mouse                                      ¦
 |                                                     |                                                     |
 |   Down To Earth (ft. Soweto Gospel Choir)           |   Peter Gabriel                                     |
 |                                                     |                                                     |
@@ -74,7 +74,7 @@ ________________________________________________________________________________
 |                                                     |                                                     |
 |   Come On Eileen                                    |   Dexys Midnight Runners                            |
 |                                                     |                                                     |
-|   Sleeping With the Television On                   |   Billy Joel                                        |
+|   Sleeping With the Television On                   |   Billy Joel                                        ¦
 |                                                     |                                                     |
 |   Escape (The Pina Colada Song)                     |   Rupert Holmes                                     |
 |                                                     |                                                     |
@@ -84,30 +84,31 @@ ________________________________________________________________________________
 |                                                     |                                                     |
 |   Let My Love Open The Door                         |   Pete Townshend                                    |
 |                                                     |                                                     |
-|   September                                         |   Earth, Wind & Fire                                |
+|   September                                         |   Earth, Wind & Fire                                ¦
 |                                                     |                                                     |
 |   Got My Mind Set On You                            |   George Harrison                                   |
 |                                                     |                                                     |
-;    Faith                                            ;   George Micheal                                    ;
-;                                                     ;                                                     ;
+¦    Faith                                            ¦   George Micheal                                    ¦
+¦                                                     ¦                                                     ¦
 :   Hold on Forever                                   :   Rob Thomas                                        :
 :                                                     :                                                     :
 .   The Underdog                                      .   Spoon                                             .
 :                                                     :                                                     :
 :   Mess Is Mine                                      :   Noah And The Whale                                :
-;                                                     ;                                                     ;
-;   Weighty Ghost                                     ;   Wintersleep                                       ;
-|                                                     |                                                     |
+¦                                                     ¦                                                     ¦
+¦   Weighty Ghost                                     ¦   Wintersleep                                       ¦
+¦                                                     ¦                                                     ¦
 |   You Get What You Give                             |   New Radicals                                      |
 |                                                     |                                                     |
 |   Scare Away The Dark                               |   Passenger                                         |
 |                                                     |                                                     |
-;   Simple Song                                       ;   The Shins                                         ;
-;                                                     ;                                                     ;
+¦   Simple Song                                       ¦   The Shins                                         ¦
+¦                                                     ¦                                                     ¦
 :                                                     :                                                     :
 :                                                     :                                                     :
 .                                                     .                                                     .
 .                                                     .                                                     .
+
 .                                                     .                                                     .
 
 Avec parôles pour les plus curieux :
