@@ -1,0 +1,26 @@
+Allô,
+
+Je me suis créé un Portfolio Scolaire sur Internet. Il est disponible sur le site web ci-présent, 'GitHub'.
+
+
+En gros, GitHub, c'est :
+
+   Un peu comme un gros disque dur gratuit en ligne pour n'importe qui / n'importe quoi (même toi si tu veux).
+
+   La plupart du temps, c'est utilisé par des gens qui collaborent ensemble sur des projets à but non-lucratif.
+
+   En échange de pouvoir utiliser GitHub gratuitement, tu acceptes que le reste de la planète puisse emprunter des petits bouts,
+   des morceaux, ou voir même l'entièreté de ton/tes projets.
+
+
+Dans mon cas, je m'en suis servi pour y déposer/créer un projet qui se nomme 'PortfolioDEC'.
+
+Étant donné que je me prépare tranquillement pour faire un stage cet été,
+j'ai inséré un lien sur mon Curriculum Vitae virtuel^[1] pour permettre aux employeurs d'évaluer/estimer
+les compétences que j'ai acquises jusqu'à présent par le biais de mes travaux scolaires. 
+[1]: En réalité c'est juste une page web sur le site web 'LinkedIn' (genre/style page Facebook).
+
+Peut-être pour un jour où ça pourrait vous intriguer?
+
+Bonne journée,
+JN
