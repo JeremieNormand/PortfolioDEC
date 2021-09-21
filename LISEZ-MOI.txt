@@ -10,7 +10,7 @@ En gros, GitHub, c'est :
    La plupart du temps, c'est utilisé par des gens qui collaborent ensemble sur des projets à but non-lucratif.
 
    En échange de pouvoir utiliser GitHub gratuitement, tu acceptes que le reste de la planète puisse emprunter des petits bouts,
-   des morceaux, ou voir même l'entièreté de ton/tes projets.
+   des morceaux, ou voir même l'entièreté de ton projet.
 
 
 Dans mon cas, je m'en suis servi pour y déposer/créer un projet qui se nomme 'PortfolioDEC'.
