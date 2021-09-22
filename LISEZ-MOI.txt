@@ -16,7 +16,7 @@ En gros, GitHub, c'est :
 Dans mon cas, je m'en suis servi pour y déposer/créer un projet qui se nomme 'PortfolioDEC'.
 
 Étant donné que je me prépare tranquillement pour faire un stage cet été,
-j'ai inséré un lien sur mon Curriculum Vitae virtuel^[1] pour permettre aux employeurs d'évaluer/estimer
+j'ai inséré un hyper-lien sur mon Curriculum Vitae virtuel^[1] pour permettre aux employeurs d'évaluer/estimer
 les compétences que j'ai acquises jusqu'à présent par le biais de mes travaux scolaires. 
 [1]: En réalité c'est juste une page web sur le site web 'LinkedIn' (genre/style page Facebook).
 
