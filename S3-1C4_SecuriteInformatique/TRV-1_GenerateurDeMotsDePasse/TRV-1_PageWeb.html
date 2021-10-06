@@ -1,0 +1,161 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<title>Générateur de Mots de Passe</title>
+	</head>
+
+	<style>
+		body {
+			max-width: 33rem;
+			margin: 0 auto;
+			background: whitesmoke;
+		}
+		h1 {
+			color: green;
+			text-align: center;
+		}
+		article > section {
+			margin: 1rem;
+			text-align: center;
+		}
+		article > section:last-child {
+			font-family: 'Courier New', Courier, monospace;
+		}
+	</style>
+
+	<body>
+		<header>
+			<h1>Générateur de Mot de Passe</h1>
+		</header>
+
+		<main>
+			<ol>
+				<li>Sélectionner la taille de mot de passe désirée.</li>
+				<li>Cliquer sur le bouton pour générer un mot de passe aléatoire.</li>
+			</ol>
+
+			<article>
+				<section>
+					<select id="motDePasseTaille">
+						<option value=10>10</option>
+						<option value=11>11</option>
+						<option value=12>12</option>
+						<option value=13>13</option>
+						<option value=14>14</option>
+						<option value=15>15</option>
+						<option value=16>16</option>
+						<option value=17>17</option>
+						<option value=18>18</option>
+						<option value=19>19</option>
+						<option value=20>20</option>
+					</select>
+					<button onclick="genererMotDePasse()">Générer</button>
+				</section>
+				<section id="motDePasse"></section>
+			</article>
+		</main>
+
+		<script>
+			const majuscules = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+			const minuscules = 'abcdejghijklmnopqrstuvwxyz';
+			const chiffres = '0123456789';
+			const symboles = '~!@#$%^&*()_+';
+
+			function validerMajuscule(caractere) {
+				var estMajuscule = false;
+				Array.from(majuscules).forEach(majuscule => {
+					if (caractere == majuscule) {
+						estMajuscule = true;
+					}
+				});
+				return estMajuscule;
+			}
+
+			function validerMinuscule(caractere) {
+				var estMinuscule = false;
+				Array.from(minuscules).forEach(minuscule => {
+					if (caractere == minuscule) {
+						estMinuscule = true;
+					}
+				});
+				return estMinuscule;
+			}
+
+			function validerChiffre(caractere) {
+				var estChiffre = false;
+				Array.from(chiffres).forEach(chiffre => {
+					if (caractere == chiffre) {
+						estChiffre = true;
+					}
+				});
+				return estChiffre;
+			}
+
+			function validerSymbole(caractere) {
+				var estSymbole = false;
+				Array.from(symboles).forEach(symbole => {
+					if (caractere == symbole) {
+						estSymbole = true;
+					}
+				});
+				return estSymbole;
+			}
+
+			function validerMotDePasse(mdp) {
+				var estValide = false;
+				if (validerMajuscule(mdp[0]) && mdp.length == MotDePasseTaille.value) {
+					console.log(MotDePasseTaille.value);
+					var presenceChiffre = false;
+					var presenceSymbole = false;
+					for (let caractereId = 1; caractereId < mdp.length; ++caractereId) {
+						if (!presenceChiffre && validerChiffre(mdp[caractereId])) {
+							presenceChiffre = true;
+						}
+						if (!presenceSymbole && validerSymbole(mdp[caractereId])) {
+							presenceSymbole = true;
+						}
+					}
+					if (presenceChiffre && presenceSymbole) {
+						estValide = true;
+					}
+				}
+				return estValide;
+			}
+
+
+			const MotDePasseTaille = document.getElementById('motDePasseTaille')
+			const MotDePasse = document.getElementById('motDePasse');
+			const types = [ 'majuscule', 'minuscule', 'chiffre', 'symbole' ];
+
+			function retournerAleatoire(chaine) {
+				return chaine[Math.floor(Math.random() * chaine.length)];
+			}
+
+			function genererMotDePasse() {
+				var mdp;
+				do {
+					mdp = retournerAleatoire(majuscules);
+
+					for (let caractereId = 1; caractereId < MotDePasseTaille.value; ++caractereId) {
+						var type = retournerAleatoire(types)
+						if (type == 'majuscule') {
+							mdp += retournerAleatoire(majuscules);
+						}
+						else if (type == 'minuscule') {
+							mdp += retournerAleatoire(minuscules);
+						}
+						else if (type == 'chiffre') {
+							mdp += retournerAleatoire(chiffres);
+						}
+						else {
+							mdp += retournerAleatoire(symboles);
+						}
+					}
+				} while (!validerMotDePasse(mdp));
+				
+				MotDePasse.innerHTML = mdp;
+				return;
+			} 
+		</script>
+	</body>
+</html> 
