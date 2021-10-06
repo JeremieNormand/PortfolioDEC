@@ -25,7 +25,7 @@ Pour t'aider à faire les connexions nécessaires :
 - Il devrait être situé en haut de l'encadré du contenu, exactement juste au-dessus de l'encadré des contributeurs,
   adjacent au bouton déroulant - celui avec la mention 'main' d'incrite à l'intérieur.
 - Tu peux retourner dans le dossier parent, dans ce cas-ci le dossier principal du portfolio, en cliquant sur son nom dans le
-  chemin du fichier. Il se souligne losque tu survoles le nom avec la souris.
+  chemin du fichier - il se souligne losque tu le survoles avec la souris.
 - Il ne te reste plus qu'a explorer, consulter, télécharger, et exécuter les projets scolaires contenu dans le porfolio.
 
 Étant donné que je me prépare tranquillement pour faire un stage cet été, j'ai inséré un hyper-lien sur mon Curriculum Vitae
