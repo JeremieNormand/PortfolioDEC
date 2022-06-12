@@ -20,9 +20,9 @@ site web en général.
 
 ## Pour t'aider à faire les connexions nécessaires :
 
-- Présentement, tu consultes un fichier texte qui ce nomme 'README.md' situé dans le dossier 'PortfolioDEC'.
+- Présentement, tu consultes un fichier balisé, ou 'markdown', qui ce nomme 'README.md' situé dans le dossier 'PortfolioDEC'.
 - Tu peux repérer le nom du fichier et son emplacement au-dessus du contenu du fichier sous la forme d'un 'chemin'.
-- Le chemin du fichier ci-présent devrait être exactement ceci : 'PortfolioDEC / LISEZ-MOI.txt'.
+- Le chemin du fichier ci-présent devrait être exactement ceci : 'PortfolioDEC / LISEZ-MOI.md'.
 - Il devrait être situé en haut de l'encadré du contenu, exactement juste au-dessus de l'encadré des contributeurs,
   adjacent au bouton déroulant - celui avec la mention 'main' d'incrite à l'intérieur.
 - Tu peux retourner dans le dossier parent, dans ce cas-ci le dossier principal du portfolio, en cliquant sur son nom dans le
